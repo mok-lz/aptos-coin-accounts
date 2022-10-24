@@ -5,6 +5,7 @@
 ### install dependencies
 `yarn install`
 
-### run demo
-`yarn coins`
+### run
+`yarn coins:layerzero`  
+`yarn coins:wormhole`
 

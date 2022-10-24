@@ -1,6 +1,10 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import axios from "axios";
 import { readFileSync, writeFileSync } from "fs";
 import { lz_coin_infos, wormhole_coin_infos } from "./wormhole_coin_infos";
+
 
 export interface CoinInfo {
   name: string;
@@ -35,11 +39,11 @@ async function readAmountFile(): Promise<AmountResult[]> {
 
   try {
     let rs:CoinResult[] = []
-    let infos = lz_coin_infos
-    // let infos = wormhole_coin_infos
+    const coinInfoCollection = process.env.Coins ?? "layerzero";
+    let infos = coinInfoCollection == "layerzero" ? lz_coin_infos : wormhole_coin_infos;
     let targetProtocol = infos == wormhole_coin_infos ? 'wormhole coin accounts data' : 'layerzero coin accounts data'
-    // let infos = [wormhole_coin_infos[0]]
 
+    // let infos = [wormhole_coin_infos[0]] // test
     // let coinInfo = infos[0]
     // let amountActive = await getFinalAmountAuto(coinInfo, -1, coinInfo.approximateOffset_lt0 ? coinInfo.approximateOffset_lt0!*2-2 : 100);
     // console.log('xxx ', amountActive)
@@ -76,7 +80,7 @@ async function readAmountFile(): Promise<AmountResult[]> {
       if(Date.now() - lastUpdateTime > 30*60*1000) {  
         // let amountActive = 0;
         let amountActive = await getFinalAmountAuto(coinInfo, -1, coinInfo.approximateOffset_lt0 ? coinInfo.approximateOffset_lt0!*2-2 : 40);
-        let amountGt0 = await getFinalAmountAuto(coinInfo, 0, coinInfo.approximateOffset_0U ? coinInfo.approximateOffset_0U*2-2 :40);
+        let amountGt0 = await getFinalAmountAuto(coinInfo, 0, coinInfo.approximateOffset_0U ? coinInfo.approximateOffset_0U!*2-2 :40);
         // let amount5U = 0;
         // let amount5U = await getFinalAmountAuto(coinInfo, 5, coinInfo.approximateOffset_5U ? coinInfo.approximateOffset_5U*2-2 : 40);
         let amount10U = await getFinalAmountAuto(coinInfo, 10, coinInfo.approximateOffset_10U ? coinInfo.approximateOffset_10U!*2-2 : 40);

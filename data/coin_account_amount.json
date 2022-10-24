@@ -4,110 +4,110 @@
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "decimals": 8,
-        "registered_accounts": 556,
-        "greater_than_0": 130,
-        "greater_than_10U": 22,
-        "updateTime": "2022-10-22T05:12:53.999Z"
+        "registered_accounts": 1192,
+        "greater_than_0": 186,
+        "greater_than_10U": 24,
+        "updateTime": "2022-10-24T03:07:31.626Z"
     },
     {
         "coinType": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
         "name": "Tether USD",
         "symbol": "USDT",
         "decimals": 6,
-        "registered_accounts": 2261,
-        "greater_than_0": 811,
-        "greater_than_10U": 49,
-        "updateTime": "2022-10-22T05:15:46.741Z"
+        "registered_accounts": 3124,
+        "greater_than_0": 1094,
+        "greater_than_10U": 70,
+        "updateTime": "2022-10-24T03:07:34.164Z"
     },
     {
         "coinType": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
         "name": "Wrapped SOL",
         "symbol": "SOL",
         "decimals": 8,
-        "registered_accounts": 713,
-        "greater_than_0": 241,
-        "greater_than_10U": 15,
-        "updateTime": "2022-10-22T05:18:03.993Z"
+        "registered_accounts": 1349,
+        "greater_than_0": 363,
+        "greater_than_10U": 29,
+        "updateTime": "2022-10-24T03:07:46.962Z"
     },
     {
         "coinType": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
         "name": "USD Coin",
         "symbol": "USDC(eth)",
         "decimals": 6,
-        "registered_accounts": 6160,
-        "greater_than_0": 2397,
-        "greater_than_10U": 341,
-        "updateTime": "2022-10-22T05:19:03.964Z"
+        "registered_accounts": 9694,
+        "greater_than_0": 3481,
+        "greater_than_10U": 530,
+        "updateTime": "2022-10-24T03:08:02.022Z"
     },
     {
         "coinType": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
         "name": "Wrapped BTC",
         "symbol": "WBTC",
         "decimals": 8,
-        "registered_accounts": 845,
-        "greater_than_0": 115,
-        "greater_than_10U": 6,
-        "updateTime": "2022-10-22T05:20:27.541Z"
+        "registered_accounts": 1915,
+        "greater_than_0": 227,
+        "greater_than_10U": 10,
+        "updateTime": "2022-10-24T03:08:04.760Z"
     },
     {
         "coinType": "0xc91d826e29a3183eb3b6f6aa3a722089fdffb8e9642b94c5fcd4c48d035c0080::coin::T",
         "name": "USD Coin",
         "symbol": "USDC(sol)",
         "decimals": 6,
-        "registered_accounts": 123,
-        "greater_than_0": 40,
-        "greater_than_10U": 17,
-        "updateTime": "2022-10-22T05:20:36.506Z"
+        "registered_accounts": 202,
+        "greater_than_0": 52,
+        "greater_than_10U": 18,
+        "updateTime": "2022-10-24T03:08:07.588Z"
     },
     {
         "coinType": "0x407a220699982ebb514568d007938d2447d33667e4418372ffec1ddb24491b6c::coin::T",
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 8,
-        "registered_accounts": 15,
+        "registered_accounts": 24,
         "greater_than_0": 0,
         "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:20:45.028Z"
+        "updateTime": "2022-10-24T03:08:14.078Z"
     },
     {
         "coinType": "0xc7160b1c2415d19a88add188ec726e62aab0045f0aed798106a2ef2994a9101e::coin::T",
         "name": "USD Coin (PoS)",
         "symbol": "USDC",
         "decimals": 6,
-        "registered_accounts": 79,
-        "greater_than_0": 15,
-        "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:21:27.751Z"
+        "registered_accounts": 143,
+        "greater_than_0": 30,
+        "greater_than_10U": 1,
+        "updateTime": "2022-10-24T03:08:16.822Z"
     },
     {
         "coinType": "0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::T",
         "name": "BUSD Token",
         "symbol": "BUSD",
         "decimals": 8,
-        "registered_accounts": 55,
+        "registered_accounts": 89,
         "greater_than_0": 1,
         "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:22:03.883Z"
+        "updateTime": "2022-10-24T03:08:26.792Z"
     },
     {
         "coinType": "0xdf83dcb9f3f27d1728ccc675a290059c617dee9f52c07cd76438b1a58a5da48b::coin::T",
         "name": "(PoS) Tether USD",
         "symbol": "USDT",
         "decimals": 6,
-        "registered_accounts": 12,
+        "registered_accounts": 13,
         "greater_than_0": 6,
-        "greater_than_10U": 2,
-        "updateTime": "2022-10-22T05:24:21.849Z"
+        "greater_than_10U": 3,
+        "updateTime": "2022-10-24T03:08:29.012Z"
     },
     {
         "coinType": "0x3c809dc60f4fedb27dc2c1199988ed5e3847a541d72e5768f44071f3cd6290ac::coin::T",
         "name": "USDT",
         "symbol": "USDT",
         "decimals": 6,
-        "registered_accounts": 6,
-        "greater_than_0": 3,
+        "registered_accounts": 9,
+        "greater_than_0": 4,
         "greater_than_10U": 1,
-        "updateTime": "2022-10-22T05:26:47.285Z"
+        "updateTime": "2022-10-24T03:08:31.806Z"
     },
     {
         "coinType": "0xd9fc4259ec5def95477dba9f0861c2882d1f8bee9a4138b476dd0720a3444547::coin::T",
@@ -117,7 +117,7 @@
         "registered_accounts": 2,
         "greater_than_0": 0,
         "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:26:53.432Z"
+        "updateTime": "2022-10-24T03:08:45.548Z"
     },
     {
         "coinType": "0x76747b508bdfbdb52e39d3560640473bf3eda09b3da505bb94f946a9ce23666d::coin::T",
@@ -127,76 +127,76 @@
         "registered_accounts": 2,
         "greater_than_0": 2,
         "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:27:00.358Z"
+        "updateTime": "2022-10-24T03:08:50.182Z"
     },
     {
         "coinType": "0x6312bc0a484bc4e37013befc9949df2d7c8a78e01c6fe14a34018449d136ba86::coin::T",
         "name": "Wrapped BNB",
         "symbol": "WBNB",
         "decimals": 8,
-        "registered_accounts": 14,
-        "greater_than_0": 0,
-        "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:27:06.334Z"
+        "registered_accounts": 43,
+        "greater_than_0": 13,
+        "greater_than_10U": 2,
+        "updateTime": "2022-10-24T03:08:52.146Z"
     },
     {
         "coinType": "0x79a6ed7a0607fdad2d18d67d1a0e552d4b09ebce5951f1e5c851732c02437595::coin::T",
         "name": "USD Coin",
         "symbol": "USDC",
         "decimals": 8,
-        "registered_accounts": 42,
-        "greater_than_0": 6,
-        "greater_than_10U": 2,
-        "updateTime": "2022-10-22T05:27:30.438Z"
+        "registered_accounts": 50,
+        "greater_than_0": 7,
+        "greater_than_10U": 3,
+        "updateTime": "2022-10-24T03:08:54.007Z"
     },
     {
         "coinType": "0xacd014e8bdf395fa8497b6d585b164547a9d45269377bdf67c96c541b7fec9ed::coin::T",
         "name": "Tether USD",
         "symbol": "USDT",
         "decimals": 8,
-        "registered_accounts": 164,
+        "registered_accounts": 225,
         "greater_than_0": 11,
         "greater_than_10U": 2,
-        "updateTime": "2022-10-22T05:27:38.722Z"
+        "updateTime": "2022-10-24T03:08:55.961Z"
     },
     {
         "coinType": "0x39d84c2af3b0c9895b45d4da098049e382c451ba63bec0ce0396ff7af4bb5dff::coin::T",
         "name": "USD Coin",
         "symbol": "USDC",
         "decimals": 6,
-        "registered_accounts": 8,
+        "registered_accounts": 14,
         "greater_than_0": 1,
         "greater_than_10U": 0,
-        "updateTime": "2022-10-22T05:27:46.080Z"
+        "updateTime": "2022-10-24T03:08:59.921Z"
     },
     {
         "coinType": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "decimals": 6,
-        "registered_accounts": 5183,
-        "greater_than_0": 2314,
-        "greater_than_10U": 790,
-        "updateTime": "2022-10-22T16:08:59.588Z"
+        "registered_accounts": 8290,
+        "greater_than_0": 4216,
+        "greater_than_10U": 1562,
+        "updateTime": "2022-10-24T01:54:31.695Z"
     },
     {
         "coinType": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
         "name": "Tether USD",
         "symbol": "USDT",
         "decimals": 6,
-        "registered_accounts": 7895,
-        "greater_than_0": 3480,
-        "greater_than_10U": 355,
-        "updateTime": "2022-10-22T16:09:21.880Z"
+        "registered_accounts": 10435,
+        "greater_than_0": 4511,
+        "greater_than_10U": 576,
+        "updateTime": "2022-10-24T01:54:54.941Z"
     },
     {
         "coinType": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
         "name": "USD Coin",
         "symbol": "USDC",
         "decimals": 6,
-        "registered_accounts": 17885,
-        "greater_than_0": 8511,
-        "greater_than_10U": 1219,
-        "updateTime": "2022-10-22T16:09:47.465Z"
+        "registered_accounts": 24271,
+        "greater_than_0": 11441,
+        "greater_than_10U": 2089,
+        "updateTime": "2022-10-24T01:55:23.007Z"
     }
 ]
