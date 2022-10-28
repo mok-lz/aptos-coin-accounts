@@ -5,7 +5,7 @@ export const wormhole_coin_infos: CoinInfo[] = [
     name: "Wrapped Ether",
     decimals: 8,
     symbol: "WETH",
-    price: 1280,
+    price: 1500,
     approximateOffset_lt0: 540,
     approximateOffset_10U: 22,
     coin_type:
@@ -25,7 +25,7 @@ export const wormhole_coin_infos: CoinInfo[] = [
     name: "Wrapped SOL",
     decimals: 8,
     symbol: "SOL",
-    price: 28,
+    price: 30,
     approximateOffset_lt0: 510,
     approximateOffset_10U: 10,
     coin_type:
@@ -45,7 +45,7 @@ export const wormhole_coin_infos: CoinInfo[] = [
     name: "Wrapped BTC",
     decimals: 8,
     symbol: "WBTC",
-    price: 18984,
+    price: 20000,
     approximateOffset_lt0: 610,
     approximateOffset_10U: 0,
     coin_type:
@@ -112,7 +112,7 @@ export const wormhole_coin_infos: CoinInfo[] = [
     name: "Ethereum Token",
     decimals: 8,
     symbol: "ETH",
-    price: 1280,
+    price: 1500,
     coin_type:
       "0xd9fc4259ec5def95477dba9f0861c2882d1f8bee9a4138b476dd0720a3444547::coin::T",
   },
@@ -128,7 +128,7 @@ export const wormhole_coin_infos: CoinInfo[] = [
     name: "Wrapped BNB",
     decimals: 8,
     symbol: "WBNB",
-    price: 278,
+    price: 280,
     coin_type:
       "0x6312bc0a484bc4e37013befc9949df2d7c8a78e01c6fe14a34018449d136ba86::coin::T",
   },
@@ -224,7 +224,7 @@ export const lz_coin_infos: CoinInfo[] = [
     "name": "Wrapped Ether",
     "decimals": 6,
     "symbol": "WETH",
-    price: 1280,
+    price: 1500,
     approximateOffset_lt0: 3470,
     approximateOffset_10U: 548,
     "coin_type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH"

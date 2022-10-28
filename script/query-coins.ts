@@ -235,7 +235,7 @@ async function getAmount(
   }
   queryStr += pStr
 
-  console.log(queryStr)
+  // console.log(queryStr)
   
   await delay(200);
 
@@ -251,7 +251,7 @@ async function getAmount(
     data: coinQuery,
   });
 
-  console.log(response.data)
+  // console.log(response.data)
   return response.data.data.current_coin_balances.length as number;
   // console.log(response.data.data.current_coin_balances); // data
 }
